@@ -38,6 +38,7 @@
     background: #242424;
     border-right:0;
 }
+/*.CodeMirror-gutters.CodeMirror-linenumbers { width: 45px !important; }*/
 .cm-s-aquaman .cm-keyword       {color: #f6bf28;}
 .cm-s-aquaman .cm-number        {color: #f8cb4f;}
 .cm-s-aquaman .cm-variable      {color: #dd8440;}
