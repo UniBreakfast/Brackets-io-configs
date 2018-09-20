@@ -17,9 +17,9 @@ define(function Linker(require, exports, module) {
         'css': ['image', 'font', 'css']
     },
         TAG_TEMPLATES = {
-            'javascript' : '<script src="{RELPATH}"></script>',
+            'javascript' : '<script src={RELPATH}></script>',
             'css' : {
-                html: '<link href="{RELPATH}" rel="stylesheet">',
+                html: '<link href={RELPATH} rel=stylesheet>',
                 css: '@import url("{RELPATH}");'
             },
             'php' : "include('{RELPATH}');",
