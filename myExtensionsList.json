@@ -1,6 +1,5 @@
 {
   "extensions": {
-    "mikailcolak.brackets-color-picker": true,
     "zaggino.brackets-git": true,
     "ivogabe.icons": true,
     "pelatx.brackets-link-file": true,
@@ -14,17 +13,13 @@
     "brackets-emmet": true,
     "milosh86.extensions-bulk-installer": false,
     "dnbard.extensions-rating": true,
-    "szdc.cdn-suggestions": true,
     "dnbard.lorem-pixel": true,
-    "brackets-minimap": true,
-    "new-moon-themes": true,
     "brackets-paste-and-indent": true,
     "deddy.runscript": true,
     "talmand.select-lines": true,
     "bigeyex.brackets-sftp-upload": true,
     "ovk.brackets-simple-todo": true,
     "themes": true,
-    "themesforbrackets": true,
     "mikaeljorhult.brackets-todo": true,
     "brackets-zw": true
   }
