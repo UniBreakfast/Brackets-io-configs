@@ -13,7 +13,7 @@ define(function (require, exports, module) {
     var moduleDirectory   = ExtensionUtils.getModulePath(module),
         domainModulePath  = moduleDirectory + "domains/cli",
         debugOn           = Preferences.get("debugMode"),
-        gitTimeout        = Preferences.get("gitTimeout") * 1000,
+        gitTimeout        = Preferences.get("gitTimeout") * 10000,
         domainName        = "brackets-git",
         nodeConnection    = new NodeConnection(),
         nextCliId         = 0,
