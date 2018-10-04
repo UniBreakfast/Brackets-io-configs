@@ -14,8 +14,8 @@
 #sidebar #project-files-container ul li a { -webkit-transition: all 0.1s ease-in-out; }
 #sidebar #project-files-container ul li a.jstree-hovered { -webkit-transform: translateX(5px); }
 .cm-s-aquaman.CodeMirror {
-/*  font-weight: bold;*/
-/*  background:#242424;*/
+  /*  font-weight: bold;*/
+  /*  background:#242424;*/
   color:#e0e0e0;
   background-image: linear-gradient(#09608f, #021926);
 }
@@ -35,34 +35,34 @@
 .cm-s-aquaman .CodeMirror-scrollbar-filler,
 .cm-s-aquaman .CodeMirror-gutter-filler { background-color: transparent; }
 .cm-s-aquaman .CodeMirror-gutters {
-    background: #242424;
-    border-right:0;
+  background: #242424;
+  border-right:0;
 }
 /*.CodeMirror-gutters.CodeMirror-linenumbers { width: 45px !important; }*/
 .cm-s-aquaman .cm-keyword       {color: #f6bf28;}
-.cm-s-aquaman .cm-number        {color: #f8cb4f;}
+.cm-s-aquaman .cm-number        {color: #45ff00;}
 .cm-s-aquaman .cm-variable      {color: #dd8440;}
-.cm-s-aquaman .cm-variable-2    {color: #f8cb4f;}
-.cm-s-aquaman .cm-variable-3    {color: #f8cb4f;}
+.cm-s-aquaman .cm-variable-2    {color: #45cf8a;}
+.cm-s-aquaman .cm-variable-3    {color: #f8694f;}
 .cm-s-aquaman .cm-property      {color: #fcc6a0;}
-.cm-s-aquaman .cm-operator      {color: #e0e0e0;}
-.cm-s-aquaman .cm-atom          {color: #f8cb4f;}
+.cm-s-aquaman .cm-operator      {color: #e0e0e0; font-weight: bold;}
+.cm-s-aquaman .cm-atom          {color: #ff4838;}
 .cm-s-aquaman .cm-comment       {color: #07abf2;}
 .cm-s-aquaman .cm-comment:hover {color: #242424; background:#d6d6d6;}
-.cm-s-aquaman .cm-string        {color: #f8cb4f;}
-.cm-s-aquaman .cm-string-2      {color: #f8cb4f;}
+.cm-s-aquaman .cm-string        {color: #ffff00;}
+.cm-s-aquaman .cm-string-2      {color: #45ff00;}
 .cm-s-aquaman .cm-def           {color: #41cf70;}
 .cm-s-aquaman .cm-meta          {color: #f8cb4f;}
 .cm-s-aquaman .cm-qualifier     {color: #41cf70;}
 .cm-s-aquaman .cm-tag           {color: #dd8440;}
-.cm-s-aquaman .cm-builtin       {color: #45cf5e;}
-.cm-s-aquaman .cm-attribute     {color: #45cf5e;}
+.cm-s-aquaman .cm-builtin       {color: #36e055;}
+.cm-s-aquaman .cm-attribute     {color: #45cf8a;}
 .cm-s-aquaman .cm-link          {color: #dd8440;}
 
 .cm-s-aquaman .CodeMirror-selected {
   background: #154b6e !important;
   animation: selection-color-change 0.1s linear forwards;
-/*  animation: selection-color-change 3s infinite linear;*/
+  /*  animation: selection-color-change 3s infinite linear;*/
 }
 @-webkit-keyframes selection-color-change { 100% { background: #fffde1; } }
 /*@-webkit-keyframes selection-color-change { 1% { background: #fffde1; } }*/
@@ -70,27 +70,27 @@
 .cm-s-aquaman .cm-matchhighlight {
   background: #dd8440;
   color:#2c2c2c !important;
-  border-radius:0px;
+  border-radius: 0px;
 }
 .cm-s-aquaman .CodeMirror-matchingtag {
   color: #4bd164 !important;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 .cm-s-aquaman span.CodeMirror-searching {
   background: lime;
-  color:#2c2c2c !important;
-  border-radius:0px;
+  color: #2c2c2c !important;
+  border-radius: 0px;
 }
 .cm-s-aquaman .cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
   background: #dd8440;
-  color:#2c2c2c !important;
-  border-radius:0px;
+  color: #2c2c2c !important;
+  border-radius: 0px;
 }
 
 .cm-s-aquaman span.CodeMirror-matchingbracket {
   color: #f7c741 !important;
-/*  background:transparent*/
-/*  backface-visibility: hidden;*/
+  /*  background:transparent*/
+  /*  backface-visibility: hidden;*/
   font-weight: bold;
   animation: matchingbracket-color-change 2s infinite linear;
 }
@@ -112,17 +112,17 @@
 }
 
 .cm-s-aquaman span.CodeMirror-nonmatchingbracket {
-    color: #f7c741 !important;
-    backface-visibility: hidden;
+  color: #f7c741 !important;
+  backface-visibility: hidden;
 }
 .cm-s-aquaman div.CodeMirror-cursor,
 .cm-s-aquaman div.CodeMirror-secondarycursor {
-    border-left: 2px solid #ff8833;
-    z-index:5;
+  border-left: 2px solid #ff8833;
+  z-index:5;
 }
 #status-bar {
-    border-top:1px solid #484b4d;
-    background:#3c3f41;
+  border-top:1px solid #484b4d;
+  background:#3c3f41;
 }
 #status-bar #status-info { color:#f7c741; }
 #status-bar #status-indicators { background:#3c3f41; }
